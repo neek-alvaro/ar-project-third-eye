@@ -1,0 +1,186 @@
+﻿Diagnose log at 2025-11-27T15:29:22Z
+
+AppPath: D:\dev-files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: D:\dev-files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 22631)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\Neek
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-7K18OR1
+GIT_TRACE2_PARENT_SID=7435c684-37cf-4ade-a5ac-1f7b1a0807f5
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\Neek\OneDrive
+TMP=C:\Users\Neek\AppData\Local\Temp
+HOME=C:\Users\Neek
+PROCESSOR_REVISION=2102
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+GIT_ASKPASS=d:\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+GIT_EXEC_PATH=D:/dev-files/Git/mingw64/libexec/git-core
+TEMP=C:\Users\Neek\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\Neek\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+COLORTERM=truecolor
+USERDOMAIN=DESKTOP-7K18OR1
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=D:/dev-files/Git/mingw64/libexec/git-core;D:\dev-files\Git\mingw64\bin;D:\dev-files\Git\usr\bin;C:\Users\Neek\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\dev-files\;D:\dev-files\Git\cmd;C:\Users\Neek\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\Neek\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Neek\AppData\Roaming\npm
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=25
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+TMPDIR=C:\Users\Neek\AppData\Local\Temp
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+TERM_PROGRAM_VERSION=1.106.3
+VSCODE_GIT_ASKPASS_MAIN=d:\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+PSModulePath=C:\Users\Neek\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=12
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+VSCODE_INJECTION=1
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-b9e51ba42e-sock
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_6656_ZACKWIRDYDAMHIKE
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+ProgramW6432=C:\Program Files
+ACSvcPort=17532
+ProgramFiles=C:\Program Files (x86)
+VSCODE_GIT_ASKPASS_NODE=D:\Microsoft VS Code\Code.exe
+SystemRoot=C:\WINDOWS
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+RlsSvcPort=22112
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\DESKTOP-7K18OR1
+USERPROFILE=C:\Users\Neek
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-7K18OR1
+APPDATA=C:\Users\Neek\AppData\Roaming
+HOMEDRIVE=C:
+ACSetupSvcPort=23210
+USERNAME=Neek
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+LANG=en_US.UTF-8
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Neek\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Neek\AppData\Local\Temp\0faa4b39a6fdabb49542b514'... OK
+Reading from temporary file 'C:\Users\Neek\AppData\Local\Temp\0faa4b39a6fdabb49542b514'... OK
+Deleting temporary file 'C:\Users\Neek\AppData\Local\Temp\0faa4b39a6fdabb49542b514'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Neek
+UserDataDirectoryPath: C:\Users\Neek\.gcm
+GetCurrentDirectory(): D:\dev-files\projects\ar-project-third-eye
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:56822/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.52.0.windows.1'
+Locating current repository...Git repository at 'D:/dev-files/projects/ar-project-third-eye/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:D:/dev-files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:D:/dev-files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:D:/dev-files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:D:/dev-files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:D:/dev-files/Git/etc/gitconfig	filter.lfs.required=true
+file:D:/dev-files/Git/etc/gitconfig	http.sslbackend=schannel
+file:D:/dev-files/Git/etc/gitconfig	core.autocrlf=true
+file:D:/dev-files/Git/etc/gitconfig	core.fscache=true
+file:D:/dev-files/Git/etc/gitconfig	core.symlinks=false
+file:D:/dev-files/Git/etc/gitconfig	pull.rebase=false
+file:D:/dev-files/Git/etc/gitconfig	credential.helper=manager
+file:D:/dev-files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:D:/dev-files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Neek/.gitconfig	user.email=neekol.alvarez@gmail.com
+file:C:/Users/Neek/.gitconfig	user.name=neek-alvaro
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	branch.main.vscode-merge-base=origin/main
+file:.git/config	remote.origin.url=https://github.com/neek-alvaro/ar-project-third-eye.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Neek\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Neek\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
